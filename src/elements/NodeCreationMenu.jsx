@@ -34,13 +34,13 @@ const NodeCreationMenu = ({ updateNodes }) => {
     <div className="fixed z-10 flex w-full items-center justify-center gap-4 p-2">
       <button
         onClick={createOriginNode}
-        className="bg-[#000] h-12 w-40 text-white rounded-full flex items-center justify-center gap-3 active:scale-90 hover:bg-[#1a45c1] transition-transform duration-150 shadow-lg"
+        className="bg-yellow-200 h-12 w-40 text-black  border-4 border-blue-500 rounded-full flex items-center justify-center gap-3 active:scale-90  transition-transform duration-150 shadow-lg"
       >
         <span className="font-bold text-3xl">+</span>New Origin
       </button>
       <button
         onClick={createTargetNode}
-        className="bg-[#000] h-12 w-48 text-white rounded-full flex items-center justify-center gap-3 active:scale-90 hover:bg-[#1a45c1] transition-transform duration-150 shadow-lg"
+        className="bg-gray-200 h-12 w-48 text-black border-4 border-green-700 rounded-full flex items-center justify-center gap-3 active:scale-90  transition-transform duration-150 shadow-lg"
       >
         <span className="font-bold text-3xl">+</span>New Target
       </button>
